@@ -11,7 +11,7 @@ let About = {
           <img class="inner_section_logo" src="../img/footer-logo.png" alt="logo">
         </div>
         <h2 class="about_title">TERMS & CONDITIONS</h2>
-        <p class="about_text">Effective: 03-15-2020</br>
+        <p class="about_text">Effective: 06-09-2023</br>
         </br>
         <b>Overview</b></br>
         Welcome to the AEG Presents website! This website, mobile application or service is owned and operated by AEG Presents LLC (“Company,” “us,” “our,” or “we”), a subsidiary of Anschutz Entertainment Group, Inc.</br>

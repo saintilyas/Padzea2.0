@@ -6,6 +6,7 @@ import About from        './src/pages/About.js';
 import Error404 from     './src/pages/Error404.js';
 import Login from        './src/pages/Login.js';
 import UserProfile from  './src/pages/UserProfile.js';
+import Reference from    './src/pages/Reference.js';
 
 import Header from       './src/components/Header.js';
 import Footer from       './src/components/Footer.js';
@@ -21,6 +22,7 @@ const routes = {
   '/addevent': AddEvent,
   '/messages': Messages,
   '/about': About,
+  '/reference': Reference,
   '/login': Login,
   '/user/id': UserProfile,
 }

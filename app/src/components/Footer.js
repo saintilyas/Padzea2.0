@@ -1,5 +1,6 @@
 let Footer = {
   render: () => {
+    let userData = JSON.parse(localStorage.getItem("_r_usrname")) || JSON.parse(sessionStorage.getItem("_r_usrname"));
     let view = `
     <footer class="main-footer">
       <div class="auto_container">
@@ -8,8 +9,11 @@ let Footer = {
         </div>
         <ul class="footer_nav">
           <li><a href="#/">Events</a></li>
-          <li><a href="#/category">Category</a></li>
-          <li><a href="#/about">About</a></li>
+          <li><a href="#/about">Terms & Conditions</a></li>
+          <li><a href="#/reference">References</a></li>
+          ${userData ? 
+            "<li><a href='#/messages'>Messages</a></li>"
+          : "<li></li>"}
         </ul>
         <div class="copyright">© All Rights Reserved 2023</div>
       </div>

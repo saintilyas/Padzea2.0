@@ -1,6 +1,6 @@
 import Header from      "../components/Header.js";
 import Preloader from   "../components/Preloader.js";
-import UserProfile from "./UserProfile.js";
+import About from       "./About.js";
 import app from         "../firebase.js";
 import { getAuth,
   createUserWithEmailAndPassword,
@@ -107,9 +107,9 @@ function LoginForm() {
     const header = document.getElementById("header");
     header.innerHTML = Header.render();
     Header.after_render();
-    document.title = UserProfile.title;
-    root.innerHTML = UserProfile.render();
-    UserProfile.after_render();
+    document.title = About.title;
+    root.innerHTML = About.render();
+    About.after_render();
   }
 
   // регистрируем пользователя

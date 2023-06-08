@@ -24,8 +24,8 @@ let Header = {
         <div class="nav_wrap">
           <ul class="navbar_header">
             <li><a href="#/">Events</a></li>
-            `/*<li><a href="#/category">Category</a></li>*/+`
-            <li><a href="#/about">About</a></li>
+            <li><a href="#/about">TERMS & CONDITIONS</a></li>
+            <li><a href="#/reference" class="reference">References</a></li>
             ${userData ? 
               "<li><a href='#/messages'>Messages</a></li>"
             : "<li></li>"}

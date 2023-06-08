@@ -177,7 +177,8 @@ let ShowEvent = {
               <div class="summary_wrap">
                 <h3>Info:</h3>
                 <ul>
-                  <li>Event starts - ${event.dates.start.localDate} ${event.dates.start.localTime}</li>
+                  <li>Event starts - ${event.dates.start.localDate || "No information about start date of this event"} </li>
+                  <li>${event.dates.start.localTime || "We don't yet have information about the start time of this event."}</li>
                   ${event.info ? `<li>Event info - ${event.info}</li>` : ""}
                   ${event.info ? `<li>Event info - ${event.pleaseNote}</li>` : ""}
                 </ul>

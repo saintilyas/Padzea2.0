@@ -6,7 +6,7 @@ const APIKey = "9H7udJ8vAX0UXZ3GiCgfwDSRXpOhUzLq";
 const fetchData = async function(value = "music") {
 
   try {
-    const response = await fetch(`https://app.ticketmaster.com/discovery/v2/events.json?sort=random&classificationName=${value}&apikey=${APIKey}`);
+    const response = await fetch(`https://app.ticketmaster.com/discovery/v2/events.json?sort=random&keyword=${value}&apikey=${APIKey}`);
     const data = await response.json();
     createEventList(data);
   } catch (error) {

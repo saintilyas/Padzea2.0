@@ -14,7 +14,7 @@ let About = {
         <p class="about_text">Effective: 06-09-2023</br>
         </br>
         <b>Overview</b></br>
-        Welcome to the AEG Presents website! This website, mobile application or service is owned and operated by AEG Presents LLC (“Company,” “us,” “our,” or “we”), a subsidiary of Anschutz Entertainment Group, Inc.</br>
+        Welcome to the Padzea website! This website is owned and operated by Padzea Company LLC (“Company,” “us,” “our,” or “we”), a subsidiary of Ilyas Schupa Entertainment Group, Inc.</br>
         </br>
         These Terms and Conditions of Use ("Terms of Use") set forth the terms and conditions under which you are authorized to use one of our websites, including any website where these Terms of Use are posted, and any subdomains and mobile versions (collectively, the “Site”), use one of our mobile applications (the “Mobile App”), or interact with our other on-site or web-enabled technologies, such as on premise WiFi, Bluetooth beacons and interactive kiosks. We may refer to the Mobile App, Site, and these related web-enabled technologies collectively as our “Digital Services.”</br>
         </br>
